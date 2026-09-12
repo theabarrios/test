@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5FBDA;
+    color: #450C3F;
+}
+
+header {
+    background-color: #450C3F;
+    color: #B9D175;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+nav {
+    margin-top: 1.5rem;
+}
+
+nav a {
+    color: #ABD3CA;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 0.2rem solid #B9D175;
+    outline-offset: 0.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section {
+    width: 50%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+p,
+li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+main img {
+    width: 40%;
+    height: auto;
+}
+
+#skills ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+#skills li {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+/* Project */
+
+.project-card {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 0.1rem solid #450C3F;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 12, 63, 0.2);
+    box-sizing: border-box;
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.project-card img {
+    width: 80%;
+    height: auto;
+}
+
+.project-card:hover {
+    box-shadow: 0 0.4rem 0.8rem rgba(69, 12, 63, 0.3);
+}
+
+/* Contact */
+
+#contact a {
+    display: block;
+    margin: 0.8rem 0;
+}
+
+/* Footer */
+
+footer {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer a {
+    font-size: 1.1rem;
+}
+
+/* Responsive layout */
+
+@media (max-width: 48rem) {
+    header {
+        padding: 1.25rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.7rem 0;
+    }
+
+    main section {
+        width: 90%;
+    }
+
+    main img {
+        width: 60%;
+    }
+
+    .project-card img {
+        width: 100%;
+    }
+}
