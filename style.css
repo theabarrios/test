@@ -76,10 +76,17 @@ main img{
 #aboutme{
     width: 85%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
     text-align: left;
+}
+
+#aboutme h2{
+    flex-basis: 100%;
+    text-align: left;
+    margin-left: calc(30% + 2.5rem);
 }
 
 #aboutme img{
@@ -91,11 +98,6 @@ main img{
 #aboutme p{
     width: auto;
     flex: 1;
-}
-#aboutme p{
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
 }
 
 #skills ul{
@@ -175,10 +177,14 @@ footer a{
     width: 90%;
     }
     
+    #aboutme h2{
+        margin-left: 0;
+        text-align: center;
+    }
+    
     #aboutme img{
         width: 60%;
     }
-
     .project-card img{
         width: 100%;
     }
