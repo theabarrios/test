@@ -74,10 +74,34 @@ main img{
     margin-bottom:2.5rem;/*change*/
 }
 
+#aboutme {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #87CEEB;
+    color: #2c3239;/*change*/
+    border: 0.1rem solid #2c3239;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
+    box-sizing: border-box;
+}
+
 #aboutme p{
     width: 80%;
     margin: 0 auto;
     text-align: justify;
+}
+
+#skills{
+    width: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #87CEEB;
+    color: #2c3239;/*change*/
+    border: 0.1rem solid #2c3239;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
+    box-sizing: border-box;
 }
 
 #skills ul{
@@ -115,6 +139,18 @@ main img{
 
 .project-card:hover{
     box-shadow: 0 0.4rem 0.8rem rgba(69, 90, 100, 0.3);
+}
+
+#contact{
+    width: 100%;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #87CEEB;
+    color: #2c3239;/*change*/
+    border: 0.1rem solid #2c3239;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
+    box-sizing: border-box;
 }
 
 #contact a{
