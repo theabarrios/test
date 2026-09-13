@@ -90,6 +90,22 @@ main img{
     margin-left:5rem; /*change*/
 }
 
+#skills{
+    position: relative;
+}
+
+#skills::before{
+    content: "";
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 60%;
+    background-color: #87ceea;
+    border-radius: 3px;
+}
+
 .project-card{
     width: 100%;
     padding: 1.5rem;
