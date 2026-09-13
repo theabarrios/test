@@ -2,13 +2,13 @@ body{
     font-family: Roboto, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFF5EE;
-    color: #455A64;
+    background-color: #fff4ee;
+    color: #4c7c92;
 }
 
 header{
-    background-color: #87CEEB;
-    color: #455A64;
+    background-color: #87ceea;
+    color: #4c7c92;
     padding: 1.5rem;
     text-align: center;
 }
@@ -28,13 +28,14 @@ nav{
 }
 
 nav a{
-    color: #455A64;
+    color: #a5f8e1;
     font-size: 1.1rem;
     text-decoration: none;
     margin: 0 0.5rem;
 }
 
 nav a:hover{
+    color: a5f8e1;
     text-decoration: underline;
 }
 
@@ -45,7 +46,7 @@ a:focus-visible{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
