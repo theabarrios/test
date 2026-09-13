@@ -3,12 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff4ee;
-    color: #4c7c92;
+    color: #2c3239;
 }
 
 header{
     background-color: #87ceea;
-    color: #4c7c92;
+    color: #2c3239;
     padding: 1.5rem;
     text-align: center;
 }
@@ -28,14 +28,14 @@ nav{
 }
 
 nav a{
-    color: #a5f8e1;
+    color: #2c3239;
     font-size: 1.1rem;
     text-decoration: none;
     margin: 0 0.5rem;
 }
 
 nav a:hover{
-    color: a5f8e1;
+    color: #a5f8e1;
     text-decoration: underline;
 }
 
@@ -46,7 +46,7 @@ a:focus-visible{
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
