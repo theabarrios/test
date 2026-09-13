@@ -3,12 +3,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #FFF5EE;
-    color: #00004d;
+    color: #455A64;
 }
 
 header{
-    background-color: #FA8072;
-    color: #00004d;
+    background-color: #87CEEB;
+    color: #455A64;
     padding: 1.5rem;
     text-align: center;
 }
@@ -28,7 +28,7 @@ nav{
 }
 
 nav a{
-    color: #ABD3CA;
+    color: #455A64;
     font-size: 1.1rem;
     text-decoration: none;
     margin: 0 0.5rem;
@@ -39,7 +39,7 @@ nav a:hover{
 }
 
 a:focus-visible{
-    outline: 0.2rem solid #B9D175;
+    outline: 0.2rem solid #455A64;
     outline-offset: 0.2rem;
 }
 
@@ -76,7 +76,7 @@ main img{
     list-style-position: inside;
 }
 
-#skills li {
+#skills li{
     text-align: left;
     margin-bottom: 0.5rem;
 }
@@ -85,9 +85,11 @@ main img{
     width: 100%;
     padding: 1.5rem;
     margin: 1rem 0;
-    border: 0.1rem solid #450C3F;
+    background-color: #87CEEB;
+    color: #455A64;
+    border: 0.1rem solid #455A64;
     border-radius: 0.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(69, 12, 63, 0.2);
+    box-shadow: 0 0.25rem 0.5rem rgba(69, 90, 100, 0.2);
     box-sizing: border-box;
 }
 
@@ -102,13 +104,13 @@ main img{
 }
 
 .project-card:hover{
-    box-shadow: 0 0.4rem 0.8rem rgba(69, 12, 63, 0.3);
+    box-shadow: 0 0.4rem 0.8rem rgba(69, 90, 100, 0.3);
 }
-
 
 #contact a{
     display: block;
     margin: 0.8rem 0;
+    color: #455A64;
 }
 
 footer{
@@ -119,6 +121,7 @@ footer{
 
 footer a{
     font-size: 1.1rem;
+    color: #455A64;
 }
 
 @media (max-width: 48rem){
