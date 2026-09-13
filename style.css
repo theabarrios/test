@@ -72,6 +72,12 @@ main img{
     height: auto;
 }
 
+#aboutme p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
 #skills ul{
     padding-left: 0;
     list-style-position: inside;
