@@ -73,6 +73,25 @@ main img{
     margin-bottom:2.5rem;/*change*/
 }
 
+#aboutme{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: left;
+}
+
+#aboutme img{
+    width: 30%;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+#aboutme p{
+    width: auto;
+    flex: 1;
+}
 #aboutme p{
     width: 80%;
     margin: 0 auto;
@@ -148,6 +167,15 @@ footer a{
     }
 
     main img{
+        width: 60%;
+    }
+
+    #aboutme{
+    flex-direction: column;
+    width: 90%;
+    }
+    
+    #aboutme img{
         width: 60%;
     }
 
